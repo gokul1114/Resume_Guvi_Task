@@ -1,0 +1,97 @@
+body {
+    position: relative;
+}
+header {
+    background-color: rgba(88, 86, 86, 0.993);
+    padding-bottom: 10px;
+}
+.profile-pic {
+    display: flex;
+    justify-content: center;
+}
+div img {
+    border-radius: 50%;
+    width: 300px;
+    height : 300px;
+    align-content: center;
+    border : 10px dotted gold;
+    padding: 10px;
+}
+
+
+
+
+.position-relative{
+    position: relative;
+}
+
+p.white-bar{
+    color: aliceblue;
+    padding-bottom: 20px;
+    
+    top: -20PX;
+}
+.position-absolute {
+    position: absolute;
+}
+
+.name {
+    background-color: gold;
+    top : -60%;
+    text-align: center;
+    padding : 1% 0;
+    font-size: 50px;
+    border-radius: 0%;
+    padding : 15px;
+    
+
+}
+
+.main > .list > ul{
+    display : flex;
+    justify-content: center;
+    font-weight: 800;
+    padding : 1% 0;
+    border-bottom: 1px black solid;
+}
+
+
+/* .main  .list ul li::after {
+content : " | ";
+} */
+input[type="range"]::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+.fas {
+color: gold;
+background-color: black;
+}
+
+.text {
+    font-weight: 800;
+    padding-left: 10%;
+
+}
+i{
+    border : 15px solid black;
+    border-radius:50%;
+    margin: 1px;
+   
+}
+
+i.fas {
+    padding: 15px;
+    border: 5px dotted gold;
+}
+
+input[type="range"] {
+    Background: gold;
+    margin-left: 35%;
+}
+.col-right {
+    border-right : 1px solid black
+}
+
